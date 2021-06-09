@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:ChatScreen/Friends.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -76,55 +76,60 @@ class HomePage extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(20),
-        child: Column(
-          children: [
-            Container(
-              decoration: BoxDecoration(
-                color: Color.fromARGB(50, 158, 158, 158),
-                borderRadius: BorderRadius.circular(10.0),
-              ),
-              child: Row(
-                children: [
-                  Icon(
-                    Icons.search,
-                    size: 30,
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              TextButton(
+                onPressed: () => Friends(),
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: Color.fromARGB(50, 158, 158, 158),
+                    borderRadius: BorderRadius.circular(10.0),
                   ),
-                  SizedBox(
-                    width: 15,
+                  child: Row(
+                    children: [
+                      Icon(
+                        Icons.search,
+                        size: 30,
+                      ),
+                      SizedBox(
+                        width: 15,
+                      ),
+                      Text(
+                        'Search',
+                        style: TextStyle(fontSize: 28, color: Colors.grey),
+                      )
+                    ],
                   ),
-                  Text(
-                    'Search',
-                    style: TextStyle(fontSize: 28, color: Colors.grey),
-                  )
-                ],
-              ),
-            ),
-            SizedBox(height: 20),
-            Container(
-              height: 120.0,
-              child: ListView.separated(
-                scrollDirection: Axis.horizontal,
-                itemBuilder: (context, index) => itemStory(),
-                separatorBuilder: (context, index) => SizedBox(
-                  width: 8,
                 ),
-                itemCount: 10, //then equal list.length()
               ),
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Expanded(
-              child: ListView.separated(
+              SizedBox(height: 20),
+              Container(
+                height: 120.0,
+                child: ListView.separated(
+                  scrollDirection: Axis.horizontal,
+                  itemBuilder: (context, index) => itemStory(),
+                  separatorBuilder: (context, index) => SizedBox(
+                    width: 8,
+                  ),
+                  itemCount: 10, //then equal list.length()
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              ListView.separated(
+                shrinkWrap: true,
+                physics: NeverScrollableScrollPhysics(),
                 scrollDirection: Axis.vertical,
                 itemBuilder: (context, index) => itemChat(),
                 separatorBuilder: (context, index) => SizedBox(
                   height: 8,
                 ),
-                itemCount: 10,
-              ),
-            )
-          ],
+                itemCount: 20,
+              )
+            ],
+          ),
         ),
       ),
     );
@@ -158,7 +163,6 @@ class HomePage extends StatelessWidget {
           ],
         ),
       );
-
   Widget itemChat() => Row(
         children: [
           Container(
