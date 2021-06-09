@@ -100,1042 +100,131 @@ class HomePage extends StatelessWidget {
               ),
             ),
             SizedBox(height: 20),
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Row(
-                children: [
-                  Container(
-                    margin: EdgeInsets.all(7),
-                    width: 70,
-                    child: Column(
-                      children: [
-                        Stack(
-                          children: [
-                            CircleAvatar(
-                              radius: 35,
-                              backgroundImage:
-                                  AssetImage('assets/images/12.jpeg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                  top: 50, start: 50),
-                              child: CircleAvatar(
-                                radius: 8,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        Text(
-                          'YOUSEF MOHAMMED',
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ],
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.all(7),
-                    width: 70,
-                    child: Column(
-                      children: [
-                        Stack(
-                          children: [
-                            CircleAvatar(
-                              radius: 35,
-                              backgroundImage:
-                                  AssetImage('assets/images/12.jpeg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                  top: 50, start: 50),
-                              child: CircleAvatar(
-                                radius: 8,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        Text('YOUSEF MOHAMMED',
-                            maxLines: 2, overflow: TextOverflow.ellipsis)
-                      ],
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.all(7),
-                    width: 70,
-                    child: Column(
-                      children: [
-                        Stack(
-                          children: [
-                            CircleAvatar(
-                              radius: 35,
-                              backgroundImage:
-                                  AssetImage('assets/images/12.jpeg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                  top: 50, start: 50),
-                              child: CircleAvatar(
-                                radius: 8,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        Text(
-                          'YOUSEF MOHAMMED',
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ],
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.all(7),
-                    width: 70,
-                    child: Column(
-                      children: [
-                        Stack(
-                          children: [
-                            CircleAvatar(
-                              radius: 35,
-                              backgroundImage:
-                                  AssetImage('assets/images/12.jpeg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                  top: 50, start: 50),
-                              child: CircleAvatar(
-                                radius: 8,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        Text('YOUSEF MOHAMMED',
-                            maxLines: 2, overflow: TextOverflow.ellipsis)
-                      ],
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.all(7),
-                    width: 70,
-                    child: Column(
-                      children: [
-                        Stack(
-                          children: [
-                            CircleAvatar(
-                              radius: 35,
-                              backgroundImage:
-                                  AssetImage('assets/images/12.jpeg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                  top: 50, start: 50),
-                              child: CircleAvatar(
-                                radius: 8,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        Text(
-                          'YOUSEF MOHAMMED',
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ],
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.all(7),
-                    width: 70,
-                    child: Column(
-                      children: [
-                        Stack(
-                          children: [
-                            CircleAvatar(
-                              radius: 35,
-                              backgroundImage:
-                                  AssetImage('assets/images/12.jpeg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                  top: 50, start: 50),
-                              child: CircleAvatar(
-                                radius: 8,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        Text('YOUSEF MOHAMMED',
-                            maxLines: 2, overflow: TextOverflow.ellipsis)
-                      ],
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.all(7),
-                    width: 70,
-                    child: Column(
-                      children: [
-                        Stack(
-                          children: [
-                            CircleAvatar(
-                              radius: 35,
-                              backgroundImage:
-                                  AssetImage('assets/images/12.jpeg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                  top: 50, start: 50),
-                              child: CircleAvatar(
-                                radius: 8,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        Text(
-                          'YOUSEF MOHAMMED',
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ],
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.all(7),
-                    width: 70,
-                    child: Column(
-                      children: [
-                        Stack(
-                          children: [
-                            CircleAvatar(
-                              radius: 35,
-                              backgroundImage:
-                                  AssetImage('assets/images/12.jpeg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                  top: 50, start: 50),
-                              child: CircleAvatar(
-                                radius: 8,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        Text('YOUSEF MOHAMMED',
-                            maxLines: 2, overflow: TextOverflow.ellipsis)
-                      ],
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.all(7),
-                    width: 70,
-                    child: Column(
-                      children: [
-                        Stack(
-                          children: [
-                            CircleAvatar(
-                              radius: 35,
-                              backgroundImage:
-                                  AssetImage('assets/images/12.jpeg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                  top: 50, start: 50),
-                              child: CircleAvatar(
-                                radius: 8,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        Text(
-                          'YOUSEF MOHAMMED',
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ],
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.all(7),
-                    width: 70,
-                    child: Column(
-                      children: [
-                        Stack(
-                          children: [
-                            CircleAvatar(
-                              radius: 35,
-                              backgroundImage:
-                                  AssetImage('assets/images/12.jpeg'),
-                            ),
-                            Padding(
-                              padding: const EdgeInsetsDirectional.only(
-                                  top: 50, start: 50),
-                              child: CircleAvatar(
-                                radius: 8,
-                                backgroundColor: Colors.green,
-                              ),
-                            ),
-                          ],
-                        ),
-                        Text('YOUSEF MOHAMMED',
-                            maxLines: 2, overflow: TextOverflow.ellipsis)
-                      ],
-                    ),
-                  ),
-                ],
+            Container(
+              height: 120.0,
+              child: ListView.separated(
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) => itemStory(),
+                separatorBuilder: (context, index) => SizedBox(
+                  width: 8,
+                ),
+                itemCount: 10, //then equal list.length()
               ),
             ),
             SizedBox(
               height: 20,
             ),
             Expanded(
-              child: SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Row(
-                      children: [
-                        Container(
-                          margin: EdgeInsets.all(7),
-                          width: 70,
-                          child: Stack(
-                            children: [
-                              CircleAvatar(
-                                radius: 35,
-                                backgroundImage:
-                                    AssetImage('assets/images/12.jpeg'),
-                              ),
-                              Padding(
-                                padding: const EdgeInsetsDirectional.only(
-                                    top: 50, start: 50),
-                                child: CircleAvatar(
-                                  radius: 8,
-                                  backgroundColor: Colors.green,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'YOUSEF MOHAMED',
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                              SizedBox(
-                                height: 8,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'hi my name is yousef mohammed and iam from egypt',
-                                      style: TextStyle(
-                                          fontSize: 13, color: Colors.grey),
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  CircleAvatar(
-                                    radius: 3.5,
-                                    backgroundColor: Colors.teal,
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  Text(
-                                    '08:00 pm',
-                                    style: TextStyle(
-                                        fontSize: 14, color: Colors.grey),
-                                  )
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Container(
-                          margin: EdgeInsets.all(7),
-                          width: 70,
-                          child: Stack(
-                            children: [
-                              CircleAvatar(
-                                radius: 35,
-                                backgroundImage:
-                                    AssetImage('assets/images/12.jpeg'),
-                              ),
-                              Padding(
-                                padding: const EdgeInsetsDirectional.only(
-                                    top: 50, start: 50),
-                                child: CircleAvatar(
-                                  radius: 8,
-                                  backgroundColor: Colors.red,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'YOUSEF MOHAMED',
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                              SizedBox(
-                                height: 8,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'hi my name is yousef mohammed and iam from egypt',
-                                      style: TextStyle(
-                                          fontSize: 13, color: Colors.grey),
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  CircleAvatar(
-                                    radius: 3.5,
-                                    backgroundColor: Colors.teal,
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  Text(
-                                    '08:00 pm',
-                                    style: TextStyle(
-                                        fontSize: 14, color: Colors.grey),
-                                  )
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Container(
-                          margin: EdgeInsets.all(7),
-                          width: 70,
-                          child: Stack(
-                            children: [
-                              CircleAvatar(
-                                radius: 35,
-                                backgroundImage:
-                                    AssetImage('assets/images/12.jpeg'),
-                              ),
-                              Padding(
-                                padding: const EdgeInsetsDirectional.only(
-                                    top: 50, start: 50),
-                                child: CircleAvatar(
-                                  radius: 8,
-                                  backgroundColor: Colors.green,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'YOUSEF MOHAMED',
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                              SizedBox(
-                                height: 8,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'hi my name is yousef mohammed and iam from egypt',
-                                      style: TextStyle(
-                                          fontSize: 13, color: Colors.grey),
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  CircleAvatar(
-                                    radius: 3.5,
-                                    backgroundColor: Colors.teal,
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  Text(
-                                    '08:00 pm',
-                                    style: TextStyle(
-                                        fontSize: 14, color: Colors.grey),
-                                  )
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Container(
-                          margin: EdgeInsets.all(7),
-                          width: 70,
-                          child: Stack(
-                            children: [
-                              CircleAvatar(
-                                radius: 35,
-                                backgroundImage:
-                                    AssetImage('assets/images/12.jpeg'),
-                              ),
-                              Padding(
-                                padding: const EdgeInsetsDirectional.only(
-                                    top: 50, start: 50),
-                                child: CircleAvatar(
-                                  radius: 8,
-                                  backgroundColor: Colors.red,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'YOUSEF MOHAMED',
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                              SizedBox(
-                                height: 8,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'hi my name is yousef mohammed and iam from egypt',
-                                      style: TextStyle(
-                                          fontSize: 13, color: Colors.grey),
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  CircleAvatar(
-                                    radius: 3.5,
-                                    backgroundColor: Colors.teal,
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  Text(
-                                    '08:00 pm',
-                                    style: TextStyle(
-                                        fontSize: 14, color: Colors.grey),
-                                  )
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Container(
-                          margin: EdgeInsets.all(7),
-                          width: 70,
-                          child: Stack(
-                            children: [
-                              CircleAvatar(
-                                radius: 35,
-                                backgroundImage:
-                                    AssetImage('assets/images/12.jpeg'),
-                              ),
-                              Padding(
-                                padding: const EdgeInsetsDirectional.only(
-                                    top: 50, start: 50),
-                                child: CircleAvatar(
-                                  radius: 8,
-                                  backgroundColor: Colors.green,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'YOUSEF MOHAMED',
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                              SizedBox(
-                                height: 8,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'hi my name is yousef mohammed and iam from egypt',
-                                      style: TextStyle(
-                                          fontSize: 13, color: Colors.grey),
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  CircleAvatar(
-                                    radius: 3.5,
-                                    backgroundColor: Colors.teal,
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  Text(
-                                    '08:00 pm',
-                                    style: TextStyle(
-                                        fontSize: 14, color: Colors.grey),
-                                  )
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Container(
-                          margin: EdgeInsets.all(7),
-                          width: 70,
-                          child: Stack(
-                            children: [
-                              CircleAvatar(
-                                radius: 35,
-                                backgroundImage:
-                                    AssetImage('assets/images/12.jpeg'),
-                              ),
-                              Padding(
-                                padding: const EdgeInsetsDirectional.only(
-                                    top: 50, start: 50),
-                                child: CircleAvatar(
-                                  radius: 8,
-                                  backgroundColor: Colors.red,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'YOUSEF MOHAMED',
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                              SizedBox(
-                                height: 8,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'hi my name is yousef mohammed and iam from egypt',
-                                      style: TextStyle(
-                                          fontSize: 13, color: Colors.grey),
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  CircleAvatar(
-                                    radius: 3.5,
-                                    backgroundColor: Colors.teal,
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  Text(
-                                    '08:00 pm',
-                                    style: TextStyle(
-                                        fontSize: 14, color: Colors.grey),
-                                  )
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Container(
-                          margin: EdgeInsets.all(7),
-                          width: 70,
-                          child: Stack(
-                            children: [
-                              CircleAvatar(
-                                radius: 35,
-                                backgroundImage:
-                                    AssetImage('assets/images/12.jpeg'),
-                              ),
-                              Padding(
-                                padding: const EdgeInsetsDirectional.only(
-                                    top: 50, start: 50),
-                                child: CircleAvatar(
-                                  radius: 8,
-                                  backgroundColor: Colors.green,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'YOUSEF MOHAMED',
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                              SizedBox(
-                                height: 8,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'hi my name is yousef mohammed and iam from egypt',
-                                      style: TextStyle(
-                                          fontSize: 13, color: Colors.grey),
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  CircleAvatar(
-                                    radius: 3.5,
-                                    backgroundColor: Colors.teal,
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  Text(
-                                    '08:00 pm',
-                                    style: TextStyle(
-                                        fontSize: 14, color: Colors.grey),
-                                  )
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Container(
-                          margin: EdgeInsets.all(7),
-                          width: 70,
-                          child: Stack(
-                            children: [
-                              CircleAvatar(
-                                radius: 35,
-                                backgroundImage:
-                                    AssetImage('assets/images/12.jpeg'),
-                              ),
-                              Padding(
-                                padding: const EdgeInsetsDirectional.only(
-                                    top: 50, start: 50),
-                                child: CircleAvatar(
-                                  radius: 8,
-                                  backgroundColor: Colors.red,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'YOUSEF MOHAMED',
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                              SizedBox(
-                                height: 8,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'hi my name is yousef mohammed and iam from egypt',
-                                      style: TextStyle(
-                                          fontSize: 13, color: Colors.grey),
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  CircleAvatar(
-                                    radius: 3.5,
-                                    backgroundColor: Colors.teal,
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  Text(
-                                    '08:00 pm',
-                                    style: TextStyle(
-                                        fontSize: 14, color: Colors.grey),
-                                  )
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Container(
-                          margin: EdgeInsets.all(7),
-                          width: 70,
-                          child: Stack(
-                            children: [
-                              CircleAvatar(
-                                radius: 35,
-                                backgroundImage:
-                                    AssetImage('assets/images/12.jpeg'),
-                              ),
-                              Padding(
-                                padding: const EdgeInsetsDirectional.only(
-                                    top: 50, start: 50),
-                                child: CircleAvatar(
-                                  radius: 8,
-                                  backgroundColor: Colors.green,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'YOUSEF MOHAMED',
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                              SizedBox(
-                                height: 8,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'hi my name is yousef mohammed and iam from egypt',
-                                      style: TextStyle(
-                                          fontSize: 13, color: Colors.grey),
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  CircleAvatar(
-                                    radius: 3.5,
-                                    backgroundColor: Colors.teal,
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  Text(
-                                    '08:00 pm',
-                                    style: TextStyle(
-                                        fontSize: 14, color: Colors.grey),
-                                  )
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Container(
-                          margin: EdgeInsets.all(7),
-                          width: 70,
-                          child: Stack(
-                            children: [
-                              CircleAvatar(
-                                radius: 35,
-                                backgroundImage:
-                                    AssetImage('assets/images/12.jpeg'),
-                              ),
-                              Padding(
-                                padding: const EdgeInsetsDirectional.only(
-                                    top: 50, start: 50),
-                                child: CircleAvatar(
-                                  radius: 8,
-                                  backgroundColor: Colors.red,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        SizedBox(
-                          width: 8,
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'YOUSEF MOHAMED',
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                              ),
-                              SizedBox(
-                                height: 8,
-                              ),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: Text(
-                                      'hi my name is yousef mohammed and iam from egypt',
-                                      style: TextStyle(
-                                          fontSize: 13, color: Colors.grey),
-                                      maxLines: 2,
-                                      overflow: TextOverflow.ellipsis,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  CircleAvatar(
-                                    radius: 3.5,
-                                    backgroundColor: Colors.teal,
-                                  ),
-                                  SizedBox(
-                                    width: 4,
-                                  ),
-                                  Text(
-                                    '08:00 pm',
-                                    style: TextStyle(
-                                        fontSize: 14, color: Colors.grey),
-                                  )
-                                ],
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
-                    ),
-                  ],
+              child: ListView.separated(
+                scrollDirection: Axis.vertical,
+                itemBuilder: (context, index) => itemChat(),
+                separatorBuilder: (context, index) => SizedBox(
+                  height: 8,
                 ),
+                itemCount: 10,
               ),
-            ),
+            )
           ],
         ),
       ),
     );
   }
+
+  Widget itemStory() => Container(
+        //margin: EdgeInsets.all(7),
+        width: 70,
+        child: Column(
+          children: [
+            Stack(
+              children: [
+                CircleAvatar(
+                  radius: 35,
+                  backgroundImage: AssetImage('assets/images/12.jpeg'),
+                ),
+                Padding(
+                  padding: const EdgeInsetsDirectional.only(top: 50, start: 50),
+                  child: CircleAvatar(
+                    radius: 8,
+                    backgroundColor: Colors.green,
+                  ),
+                ),
+              ],
+            ),
+            Text(
+              'YOUSEF MOHAMMED',
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ],
+        ),
+      );
+
+  Widget itemChat() => Row(
+        children: [
+          Container(
+            //margin: EdgeInsets.all(7),
+            width: 70,
+            child: Stack(
+              children: [
+                CircleAvatar(
+                  radius: 35,
+                  backgroundImage: AssetImage('assets/images/12.jpeg'),
+                ),
+                Padding(
+                  padding: const EdgeInsetsDirectional.only(top: 50, start: 50),
+                  child: CircleAvatar(
+                    radius: 8,
+                    backgroundColor: Colors.red,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          SizedBox(
+            width: 8,
+          ),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'YOUSEF MOHAMED',
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                SizedBox(
+                  height: 8,
+                ),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        'hi my name is yousef mohammed and iam from egypt',
+                        style: TextStyle(fontSize: 13, color: Colors.grey),
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                    SizedBox(
+                      width: 4,
+                    ),
+                    CircleAvatar(
+                      radius: 3.5,
+                      backgroundColor: Colors.teal,
+                    ),
+                    SizedBox(
+                      width: 4,
+                    ),
+                    Text(
+                      '08:00 pm',
+                      style: TextStyle(fontSize: 14, color: Colors.grey),
+                    )
+                  ],
+                ),
+              ],
+            ),
+          )
+        ],
+      );
 }
